@@ -79,3 +79,19 @@ CrossTable(sms_test_pred2, sms_raw_test$type,
            prop.chisq = FALSE, prop.t = FALSE, prop.r = FALSE,
            dnn = c('predicted', 'actual'))
 
+ 
+Total Observations in Table:  1390 
+
+ 
+             | actual 
+   predicted |       ham |      spam | Row Total | 
+-------------|-----------|-----------|-----------|
+         ham |      1205 |        30 |      1235 | 
+             |     0.998 |     0.164 |           | 
+-------------|-----------|-----------|-----------|
+        spam |         2 |       153 |       155 | 
+             |     0.002 |     0.836 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |      1207 |       183 |      1390 | 
+             |     0.868 |     0.132 |           | 
+-------------|-----------|-----------|-----------|
